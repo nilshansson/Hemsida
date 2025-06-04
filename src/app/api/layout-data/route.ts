@@ -27,8 +27,8 @@ const MenuData = [
   },
   {
     id: 5,
-    title: "Services",
-    path: "/#services",
+    title: "Comission A Work",
+    path: "/#Comissionawork",
     newTab: false,
   },
   {
@@ -42,45 +42,44 @@ const MenuData = [
     title: "Docs",
     path: "/documentation",
     newTab: false,
-  }
+  },
 ];
 
-
 const footerData = {
-    name: "Studiova",
-    tagline: "Build something together?",
-    info: [
-        {
-            icon: "/images/footer/email-arrow.svg",
-            link: "info@wrappixel.com",
-            href: "https://www.wrappixel.com/"
-        },
-        {
-            icon: "/images/footer/Location.svg",
-            link: "Zwolle Netherlands",
-            href: "https://maps.app.goo.gl/hpDp81fqzGt5y4bC8"
-        }
-    ],
-    links: [
-        { name: "Home", href: "/" },
-        { name: "About", href: "/about" },
-        { name: "Services", href: "/#services" },
-        { name: "Work", href: "/projects" },
-        { name: "Terms", href: "/terms-and-conditions" },
-        { name: "Privacy Policy", href: "/privacy-policy" },
-        { name: "Error 404", href: "/not-found" }
-    ],
-    socialLinks: [
-        { name: "Facebook", href: "https://www.facebook.com/" },
-        { name: "Instagram", href: "https://www.instagram.com/" },
-        { name: "Twitter", href: "https://x.com/" }
-    ],
-    copyright: "© Studiova copyright 2025"
+  name: "Studiova",
+  tagline: "Build something together?",
+  info: [
+    {
+      icon: "/images/footer/email-arrow.svg",
+      link: "info@wrappixel.com",
+      href: "https://www.wrappixel.com/",
+    },
+    {
+      icon: "/images/footer/Location.svg",
+      link: "Zwolle Netherlands",
+      href: "https://maps.app.goo.gl/hpDp81fqzGt5y4bC8",
+    },
+  ],
+  links: [
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Services", href: "/#services" },
+    { name: "Work", href: "/projects" },
+    { name: "Terms", href: "/terms-and-conditions" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Error 404", href: "/not-found" },
+  ],
+  socialLinks: [
+    { name: "Facebook", href: "https://www.facebook.com/" },
+    { name: "Instagram", href: "https://www.instagram.com/" },
+    { name: "Twitter", href: "https://x.com/" },
+  ],
+  copyright: "© Studiova copyright 2025",
 };
 
 export const GET = async () => {
-    return NextResponse.json({
-        footerData,
-        MenuData
-    });
+  return NextResponse.json({
+    footerData,
+    MenuData,
+  });
 };
