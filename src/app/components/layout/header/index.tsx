@@ -133,7 +133,7 @@ const Header = () => {
                       />
                       <Image
                         src="/images/Icon/close-icon-dark.svg"
-                        alt="icon"
+                        alt="icons"
                         width={16}
                         height={16}
                         className="hidden dark:block"
