@@ -27,8 +27,8 @@ const MenuData = [
   },
   {
     id: 5,
-    title: "Services",
-    path: "/#services",
+    title: "Comission A Work",
+    path: "/#comission-a-work",
     newTab: false,
   },
   {
@@ -63,7 +63,7 @@ const footerData = {
   links: [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Services", href: "/#services" },
+    { name: "Comission A Work", href: "/#comission-a-work" },
     { name: "Work", href: "/projects" },
     { name: "Terms", href: "/terms-and-conditions" },
     { name: "Privacy Policy", href: "/privacy-policy" },
