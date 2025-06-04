@@ -11,10 +11,10 @@
   --breakpoint-xsm: 500px;
 
   /* color */
-  --color-primary: #C1FF72;
-  --color-secondary: #1F2A2E;
-  --color-lightgray: #F4F8FA;
-  --color-overlay: #000A0B99;
+  --color-primary: #bbc5ce;
+  --color-secondary: #1f2a2e;
+  --color-lightgray: #f4f8fa;
+  --color-overlay: #000a0b99;
   --color-darkblack: #273338;
   --color-twilliteblack: #181f22;
   --color-gray: #365564;
@@ -51,7 +51,7 @@ body {
     @apply text-6xl md:text-9xl 2xl:text-[290px] leading-none;
   }
 
-  .blog-heading{
+  .blog-heading {
     @apply text-4xl md:text-5xl xl:text-7xl;
   }
 
@@ -59,23 +59,23 @@ body {
     @apply text-base font-medium text-white bg-secondary dark:bg-white/10;
   }
 
-  .project-descp p{
+  .project-descp p {
     @apply text-secondary/70 dark:text-white/70 pt-2;
   }
 
-  .project-descp h4{
-    @apply  pt-5;
+  .project-descp h4 {
+    @apply pt-5;
   }
 
-  .project-descp h5{
-    @apply  pt-4;
+  .project-descp h5 {
+    @apply pt-4;
   }
 
-  .blog-content p{
+  .blog-content p {
     @apply text-secondary/70 dark:text-white/70;
   }
 
-  .blog-content h4{
+  .blog-content h4 {
     @apply mt-5 mb-3.5;
   }
 
