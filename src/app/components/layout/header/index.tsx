@@ -156,10 +156,10 @@ const Header = () => {
                       href="tel:+1-212-456-7890"
                       className="text-secondary/60 dark:text-white/60 hover:text-secondary dark:hover:text-white"
                     >
-                      +1-212-456-7890
+                      +46-73 052 0522
                     </Link>
-                    <Link href="mailto:info@wrappixel.com">
-                      <h4>info@wrappixel.com</h4>
+                    <Link href="mailto:nilsmenghansson@gmail.com">
+                      <h4>nilsmenghansson@gmail.com</h4>
                     </Link>
                   </div>
                 </div>
