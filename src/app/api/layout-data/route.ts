@@ -28,7 +28,7 @@ const MenuData = [
   {
     id: 5,
     title: "Comission A Work",
-    path: "/#comissionAWork",
+    path: "/#comissionawork",
     newTab: false,
   },
   {
