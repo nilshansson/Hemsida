@@ -9,7 +9,7 @@ import Resources from "./components/home/resources";
 
 import Team from "./components/home/team";
 import Testimonial from "./components/home/testimonial";
-import ComissionAWork from "./components/home/comissionAWork";
+import Services from "./components/home/services";
 
 export const metadata: Metadata = {
   title: "Studiova",
@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <HeroSection />
       <Portfolio />
-      <ComissionAWork />
+      <Services />
       <Aboutus />
       <Testimonial />
       <Team teamdataNumber="06" />

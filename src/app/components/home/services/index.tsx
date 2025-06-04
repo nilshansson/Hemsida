@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-function ComissionAWork() {
+function Services() {
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const [imagePosition, setImagePosition] = useState<number>(0);
   const [isMdScreen, setIsMdScreen] = useState(false);
@@ -51,7 +51,7 @@ function ComissionAWork() {
   };
 
   return (
-    <section id="Comission A Work" className="bg-secondary py-20 md:py-40">
+    <section id="5" className="bg-secondary py-20 md:py-40">
       <div className="flex flex-col gap-24">
         <div className="container">
           <div className="flex flex-col gap-24">
@@ -206,4 +206,4 @@ function ComissionAWork() {
   );
 }
 
-export default ComissionAWork;
+export default Services;
