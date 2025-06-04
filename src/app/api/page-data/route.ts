@@ -46,7 +46,7 @@ const statsFactData = {
 const servicesData = {
   number: "03",
   name: "Comission A Work",
-  heading: "You imagine it - I Paint It",
+  heading: "Comission A Work",
   description:
     "A glimpse into our creativity—exploring innovative designs, successful collaborations, and transformative digital experiences.",
   data: [
