@@ -9,7 +9,7 @@ function HeroSection() {
       <Parallax speed={-25}>
         <section className="relative flex items-end text-white bg-black h-full min-h-screen">
           {/* Background Video */}
-          <video
+          {/* <video
             className="absolute top-0 left-0 w-full h-full object-cover"
             loop
             autoPlay
@@ -17,7 +17,7 @@ function HeroSection() {
             playsInline
           >
             <source src="/video/banner-video.mp4" type="video/mp4" />
-          </video>
+          </video> */}
 
           {/* Overlay to improve text readability */}
           <div className="absolute inset-0 bg-black/50"></div>
