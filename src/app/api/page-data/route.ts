@@ -45,8 +45,8 @@ const statsFactData = {
 
 const servicesData = {
   number: "03",
-  name: "Services",
-  heading: "Services",
+  name: "Comission A Work",
+  heading: "Comission A Work",
   description:
     "A glimpse into our creativity—exploring innovative designs, successful collaborations, and transformative digital experiences.",
   data: [
