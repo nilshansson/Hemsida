@@ -20,7 +20,7 @@ function AboutusHero() {
           <div className="flex items-start gap-2 md:gap-6">
             <div className="w-11 h-11 flex-shrink-0"></div>
             <p className="text-white/70 max-w-md">
-              Upcoming{" "}
+              {" "}
               <span className="text-primary">
                 Abstract Expressionism Painter
               </span>{" "}
