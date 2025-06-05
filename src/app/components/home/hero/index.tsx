@@ -8,6 +8,13 @@ function HeroSection() {
     <ParallaxProvider>
       <Parallax speed={-25}>
         <section className="relative flex items-end text-white bg-black h-full min-h-screen">
+          <Image
+            src="/images/home/portfolio/projectsbild-hemsida.JPEG"
+            alt="Picture of art in exhibition"
+            fill
+            className="object-cover w-full h-full"
+            priority // optional, improves loading
+          />
           {/* Background Video */}
           {/* <video
             className="absolute top-0 left-0 w-full h-full object-cover"
