@@ -95,20 +95,18 @@ body {
   .swiper-slide {
     width: fit-content !important;
   }
-  .reveal-left {
-    animation: reveal-left 1s ease-out forwards;
-    transform: scaleX(0);
-    transform-origin: left;
+  .draw-signature path {
+    stroke: white;
+    fill: none;
+    stroke-width: 2;
+    stroke-dasharray: 500;
+    stroke-dashoffset: 500;
+    animation: draw-signature 2s ease-out forwards;
   }
 
-  @keyframes reveal-left {
-    0% {
-      transform: scaleX(0);
-      transform-origin: left;
-    }
-    100% {
-      transform: scaleX(1);
-      transform-origin: left;
+  @keyframes draw-signature {
+    to {
+      stroke-dashoffset: 0;
     }
   }
 }

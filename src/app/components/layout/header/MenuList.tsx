@@ -16,11 +16,11 @@ const MenuList = ({ item, closeMenu }: { item: any; closeMenu: any }) => {
                 group-hover:max-w-6 group-hover:opacity-100`}
       >
         <Image
-          src="/images/Icon/secondary-leaf.svg"
+          src="/images/logo/favicon.svg"
           alt="icon"
           height={20}
           width={20}
-          className="reveal-left dark:hidden"
+          className="draw-signature dark:hidden"
         />
         <Image
           src="/images/Icon/primary-leaf.svg"
