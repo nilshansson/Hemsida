@@ -1,4 +1,4 @@
-import ProjectList from "@/app/components/projects";
+import ProjectList from "@/app/components/artworks";
 import Herobanner from "@/app/components/shared/hero-banner";
 import { getAllProjects } from "@/lib/markdown";
 import { Metadata } from "next";
@@ -12,7 +12,7 @@ export default function Page() {
     <main>
       <Herobanner
         bannerimage="/images/projects/banner/projects-banner.png"
-        heading="Projects"
+        heading="Artworks"
         desc="?"
       />
       <ProjectList />

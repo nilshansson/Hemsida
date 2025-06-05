@@ -15,7 +15,7 @@ const MenuData = [
   },
   {
     id: 3,
-    title: "Projects",
+    title: "Artworks",
     path: "/projects",
     newTab: false,
   },
