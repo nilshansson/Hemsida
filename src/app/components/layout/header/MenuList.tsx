@@ -16,7 +16,7 @@ const MenuList = ({ item, closeMenu }: { item: any; closeMenu: any }) => {
                 group-hover:max-w-6 group-hover:opacity-100`}
       >
         <Image
-          src="/images/logo/favicon.svg"
+          src="/images/logo/favicondark.svg"
           alt="icon"
           height={20}
           width={20}
