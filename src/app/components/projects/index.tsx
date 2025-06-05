@@ -64,18 +64,6 @@ const ProjectList = () => {
                   </div>
                   <div className="flex flex-col gap-3">
                     <h3>{project.title}</h3>
-                    <div className="flex gap-3">
-                      {project.medium.map((value, index) => {
-                        return (
-                          <p
-                            key={index}
-                            className="text-base hover:bg-primary border border-secondary/12 dark:border-white/12 dark:hover:text-secondary w-fit py-1 px-4 rounded-full"
-                          >
-                            {value}
-                          </p>
-                        );
-                      })}
-                    </div>
                   </div>
                 </div>
               );
