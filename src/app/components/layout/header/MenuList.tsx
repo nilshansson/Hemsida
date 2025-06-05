@@ -20,7 +20,7 @@ const MenuList = ({ item, closeMenu }: { item: any; closeMenu: any }) => {
           alt="icon"
           height={20}
           width={20}
-          className="animate__animated animate__slideInLeft dark:hidden"
+          className="reveal-left dark:hidden"
         />
         <Image
           src="/images/Icon/primary-leaf.svg"

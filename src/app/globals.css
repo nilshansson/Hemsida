@@ -44,6 +44,21 @@ body {
 }
 
 @layer utilities {
+  .reveal-left {
+    animation: reveal-left 1s ease-out forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  @keyframes reveal-left {
+    0% {
+      transform: scaleX(0);
+      transform-origin: left;
+    }
+    100% {
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+  }
   .container {
     @apply w-full max-w-[105rem] my-0 mx-auto py-0 sm:px-7 px-5;
   }
