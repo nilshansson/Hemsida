@@ -20,11 +20,10 @@ function Portfolio() {
               <div className="flex flex-col gap-11">
                 <div className="flex flex-col gap-5 ">
                   <div className="py-5"></div>
-                  <h2 className="max-w-3xl">Featured projects</h2>
+                  <h2 className="max-w-3xl">Abstract Works</h2>
                   <p className="max-w-2xl text-secondary/70 dark:text-white/70">
-                    A glimpse into our creativity—exploring innovative designs,
-                    successful collaborations, and transformative digital
-                    experiences.
+                    A glimpse into my world—vibrant colors, expressive energy,
+                    and paintings that feel alive with movement and emotion.
                   </p>
                 </div>
               </div>
