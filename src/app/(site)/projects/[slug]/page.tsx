@@ -13,10 +13,10 @@ export async function generateMetadata({ params }: Props) {
 
   const project = getProjectsBySlug(slug, [
     "title",
-    "ScopeOfWork",
-    "industry",
-    "raised",
-    "website",
+    "medium",
+    "size",
+    "price",
+    "Year",
     "description",
     "coverImage",
     "gallery",
@@ -69,10 +69,10 @@ export default async function Post({ params }: Props) {
   const { slug } = await params;
   const project = getProjectsBySlug(slug, [
     "title",
-    "ScopeOfWork",
-    "industry",
-    "raised",
-    "website",
+    "medium",
+    "size",
+    "price",
+    "Year",
     "description",
     "coverImage",
     "gallery",
@@ -115,29 +115,27 @@ export default async function Post({ params }: Props) {
                 <div className="flex flex-col md:flex-row gap-5 lg:gap-10">
                   <div className="flex flex-col gap-2 border-b md:border-b-0 md:border-r border-secondary/12 dark:border-white/12 pb-5 md:pr-5 lg:pr-10">
                     <span className="text-base text-secondary/70 dark:text-white/70">
-                      Scope of work
+                      Medium
                     </span>
-                    <p className="font-medium">
-                      {project.ScopeOfWork.join(", ")}
-                    </p>
+                    <p className="font-medium">{project.medium}</p>
                   </div>
                   <div className="flex flex-col gap-2 border-b md:border-b-0 md:border-r border-secondary/12 dark:border-white/12 pb-5 md:pr-5 lg:pr-10">
                     <span className="text-base text-secondary/70 dark:text-white/70">
-                      Industry
+                      Size
                     </span>
-                    <p className="font-medium">{project.industry}</p>
+                    <p className="font-medium">{project.size}</p>
                   </div>
                   <div className="flex flex-col gap-2 border-b md:border-b-0 md:border-r border-secondary/12 dark:border-white/12 pb-5 md:pr-5 lg:pr-10">
                     <span className="text-base text-secondary/70 dark:text-white/70">
-                      Raised
+                      Price
                     </span>
-                    <p className="font-medium">{project.raised}</p>
+                    <p className="font-medium">{project.price}</p>
                   </div>
                   <div className="flex flex-col gap-2">
                     <span className="text-base text-secondary/70 dark:text-white/70">
-                      Website
+                      Year
                     </span>
-                    <p className="font-medium">{project.website}</p>
+                    <p className="font-medium">{project.Year}</p>
                   </div>
                 </div>
               </div>

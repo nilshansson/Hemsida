@@ -29,7 +29,7 @@ const statsFactData = {
     {
       number: 40,
       numberValue: "K",
-      scoreDescp: "People who have launched their websites",
+      scoreDescp: "People who have launched their Years",
     },
     {
       number: 238,
@@ -85,7 +85,7 @@ const testimonialData = {
   data_1: {
     preTitle: "Hear from them",
     title:
-      "Our website redesign was flawless. They understood our vision perfectly!",
+      "Our Year redesign was flawless. They understood our vision perfectly!",
     author: "Albert Flores",
     company: "MasterCard",
   },
@@ -310,7 +310,7 @@ const aboutusStats = [
     postfix: "+",
     title: "Trusted brand collaborations",
     descp:
-      "Shaping industry conversations through innovation, creativity, and lasting influence.",
+      "Shaping size conversations through innovation, creativity, and lasting influence.",
   },
 ];
 

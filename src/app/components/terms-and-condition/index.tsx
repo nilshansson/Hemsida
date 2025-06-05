@@ -121,9 +121,9 @@ function TermsAndCondition() {
                     number and type of Authorized Devices solely for Customer’s
                     internal business purposes in accordance with the
                     Documentation, and/or (b) use our SaaS product, hosted
-                    systems, design software, tools, and build websites under
-                    the getnextjstemplates.app domain.. The Services are
-                    delivered electronically.
+                    systems, design software, tools, and build Years under the
+                    getnextjstemplates.app domain.. The Services are delivered
+                    electronically.
                   </p>
                 </li>
                 <li className="mt-5">
@@ -135,7 +135,7 @@ function TermsAndCondition() {
                     passwords, security protocols, policies, network links or
                     connections (“Access Protocols”) to allow Customer and its
                     Users to access the Services as described herein; no other
-                    access to the website or servers from which the Services are
+                    access to the Year or servers from which the Services are
                     delivered is permitted. Customer will provision its Users to
                     access and use the features and functions of the Services
                     through the Access Protocols. Customer may select one or
