@@ -23,7 +23,7 @@ const MenuList = ({ item, closeMenu }: { item: any; closeMenu: any }) => {
           className="draw-signature dark:hidden"
         />
         <Image
-          src="/images/Icon/primary-leaf.svg"
+          src="/images/logo/favicon.svg"
           alt="icon"
           height={20}
           width={20}
