@@ -19,14 +19,14 @@ const MenuList = ({ item, closeMenu }: { item: any; closeMenu: any }) => {
           src="/images/logo/favicondark.svg"
           alt="icon"
           height={20}
-          width={20}
-          className="draw-signature dark:hidden"
+          width={40}
+          className="animate-spin dark:hidden"
         />
         <Image
           src="/images/logo/favicon.svg"
           alt="icon"
           height={20}
-          width={20}
+          width={40}
           className="animate-spin hidden dark:block"
         />
       </div>

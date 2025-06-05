@@ -95,30 +95,6 @@ body {
   .swiper-slide {
     width: fit-content !important;
   }
-  .draw-signature path {
-    fill: none;
-    stroke-width: 2;
-    stroke-dasharray: 500;
-    stroke-dashoffset: 500;
-    animation: draw-signature 3s ease-out infinite;
-  }
-
-  @keyframes draw-signature {
-    0% {
-      stroke-dashoffset: 500;
-      opacity: 0;
-    }
-    10% {
-      opacity: 1;
-    }
-    80% {
-      stroke-dashoffset: 0;
-    }
-    100% {
-      stroke-dashoffset: 0;
-      opacity: 0;
-    }
-  }
 }
 
 @layer base {
