@@ -12,12 +12,13 @@
 
   /* color */
   --color-primary: #bbc5ce;
-  --color-secondary: #1f2a2e;
+  --color-secondary: #4d1717;
   --color-lightgray: #f4f8fa;
   --color-overlay: #000a0b99;
   --color-darkblack: #273338;
   --color-twilliteblack: #181f22;
   --color-gray: #365564;
+  --color-green: #174d38;
 
   /* padding */
   --spacing-35: 35rem; /*550px*/
