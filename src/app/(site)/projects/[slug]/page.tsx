@@ -14,7 +14,9 @@ export async function generateMetadata({ params }: Props) {
   const project = getProjectsBySlug(slug, [
     "title",
     "ScopeOfWork",
-
+    "industry",
+    "raised",
+    "website",
     "description",
     "coverImage",
     "gallery",
@@ -67,6 +69,10 @@ export default async function Post({ params }: Props) {
   const { slug } = await params;
   const project = getProjectsBySlug(slug, [
     "title",
+    "ScopeOfWork",
+    "industry",
+    "raised",
+    "website",
     "description",
     "coverImage",
     "gallery",
