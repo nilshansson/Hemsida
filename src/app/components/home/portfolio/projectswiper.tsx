@@ -92,16 +92,6 @@ const Projectswiper = () => {
               </div>
               <div className="flex flex-col gap-2 lg:gap-4">
                 <h3>{value.title}</h3>
-                <div className="flex gap-3">
-                  {value.medium.map((tag, idx) => (
-                    <p
-                      key={idx}
-                      className="text-base dark:text-white dark:hover:text-secondary hover:bg-primary border border-secondary/12 dark:border-white/12 w-fit rounded-full py-1 px-3"
-                    >
-                      {tag}
-                    </p>
-                  ))}
-                </div>
               </div>
             </div>
           </SwiperSlide>
