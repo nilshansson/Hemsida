@@ -52,7 +52,7 @@ const servicesData = {
   data: [
     {
       id: 1,
-      image: "/images/home/services/services_1.png",
+      image: "/images/home/services/Comission-textmessage.png",
       heading: "1. Share Your Vision – or Let Me Surprise You",
       descp:
         "Think about the size, colors, or perhaps a special memory you'd like the painting to reflect. Whether you have a clear idea or want to give me creative freedom, I'm happy to work in the way that suits you best.",
