@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import Aboutus from "./components/home/about-us";
 import Contact from "./components/home/contact";
 import Faq from "./components/home/faq";
 import HeroSection from "./components/home/hero";
@@ -22,7 +21,7 @@ export default function Home() {
       <HeroSection />
       <Portfolio />
       <ComiissionAWork />
-      <Aboutus />
+
       <Testimonial />
       <Team teamdataNumber="06" />
       <Pricing />
