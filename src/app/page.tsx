@@ -12,7 +12,7 @@ import Testimonial from "./components/home/testimonial";
 import ComiissionAWork from "./components/home/comission-a-work";
 
 export const metadata: Metadata = {
-  title: "Studiova",
+  title: "Nils Hansson Meng",
 };
 
 export default function Home() {
