@@ -9,7 +9,7 @@ import Resources from "./components/home/resources";
 import Team from "./components/home/team";
 import Testimonial from "./components/home/testimonial";
 
-import ComiissionAWork from "./components/home/comission-a-work";
+import ComissionAWork from "./components/home/comission-a-work";
 
 export const metadata: Metadata = {
   title: "Nils Hansson Meng",
@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <HeroSection />
       <Portfolio />
-      <ComiissionAWork />
+      <ComissionAWork />
 
       <Testimonial />
       <Team teamdataNumber="06" />
