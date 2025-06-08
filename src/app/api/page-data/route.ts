@@ -288,32 +288,27 @@ const contactData = {
     position: "Onboarding & Success Manager",
   },
 };
-
 const aboutusStats = [
   {
-    number: 45,
+    number: 25,
     postfix: "+",
-    title: "Presence in global markets",
+    title: "Private and corporate collectors",
     descp:
-      "Expanding reach across international regions with localized expertise and worldwide impact.",
+      "Building long-term value through original works placed in homes, studios, and curated interiors around the world.",
   },
   {
-    number: 15,
-    prefix: "$",
-    postfix: "M",
-    title: "In strategic investments",
+    number: 7,
+    title: "Solo and group exhibitions",
     descp:
-      "Driving growth with curated partnerships and high-performing, audience-driven initiatives.",
+      "Featured in both emerging and established art spaces, connecting with diverse audiences through color and form.",
   },
   {
-    number: 158,
-    postfix: "+",
-    title: "Trusted brand collaborations",
+    number: 3,
+    title: "Live painting performances",
     descp:
-      "Shaping size conversations through innovation, creativity, and lasting influence.",
+      "Engaging audiences in real time through expressive, spontaneous creation—bringing the artistic process to life.",
   },
 ];
-
 const servicesSliderData = [
   "Branding",
   "Web development",
