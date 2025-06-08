@@ -30,7 +30,7 @@ function Aboutus() {
               </span>
               <div className="h-px w-16 bg-secondary/12 dark:bg-white/12" />
               <p className="text-base font-medium text-white bg-secondary dark:bg-white/10 py-1.5 px-4 rounded-full">
-                About us
+                About
               </p>
             </div>
             <div className="flex flex-col gap-5 2xl:gap-7">
