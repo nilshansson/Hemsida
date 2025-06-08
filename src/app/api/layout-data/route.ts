@@ -37,12 +37,6 @@ const MenuData = [
     path: "/contact",
     newTab: false,
   },
-  {
-    id: 7,
-    title: "Docs",
-    path: "/documentation",
-    newTab: false,
-  },
 ];
 
 const footerData = {
