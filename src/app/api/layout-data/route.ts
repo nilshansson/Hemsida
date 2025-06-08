@@ -21,7 +21,7 @@ const MenuData = [
   },
   {
     id: 4,
-    title: "Blog",
+    title: "Events",
     path: "/blog",
     newTab: false,
   },
@@ -46,8 +46,8 @@ const MenuData = [
 ];
 
 const footerData = {
-  name: "Studiova",
-  tagline: "Build something together?",
+  name: "Nils Hansson Meng",
+  tagline: "Let's put some color on your walls",
   info: [
     {
       icon: "/images/footer/email-arrow.svg",
@@ -64,17 +64,15 @@ const footerData = {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Comission A Work", href: "/#comission-a-work" },
-    { name: "Work", href: "/projects" },
+    { name: "Artwork", href: "/projects" },
     { name: "Terms", href: "/terms-and-conditions" },
     { name: "Privacy Policy", href: "/privacy-policy" },
     { name: "Error 404", href: "/not-found" },
   ],
   socialLinks: [
     { name: "Facebook", href: "https://www.facebook.com/" },
-    { name: "Instagram", href: "https://www.instagram.com/" },
-    { name: "Twitter", href: "https://x.com/" },
+    { name: "Instagram", href: "https://www.instagram.com/nilshanssonmeng" },
   ],
-  copyright: "© Studiova copyright 2025",
 };
 
 export const GET = async () => {
