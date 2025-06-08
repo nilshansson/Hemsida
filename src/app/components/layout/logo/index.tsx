@@ -24,7 +24,7 @@ const Logo = (props: { sticky: boolean }) => {
           sticky ? "/images/logo/favicondark.svg" : "/images/logo/favicon.svg"
         }
         alt="logo"
-        width={80}
+        width={100}
         height={40}
         className="block xsm:hidden"
       />
