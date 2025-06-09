@@ -42,18 +42,7 @@ const MenuData = [
 const footerData = {
   name: "Nils Hansson Meng",
   tagline: "Let's put some color on your walls",
-  info: [
-    {
-      icon: "/images/footer/email-arrow.svg",
-      link: "info@wrappixel.com",
-      href: "https://www.wrappixel.com/",
-    },
-    {
-      icon: "/images/footer/Location.svg",
-      link: "Zwolle Netherlands",
-      href: "https://maps.app.goo.gl/hpDp81fqzGt5y4bC8",
-    },
-  ],
+
   links: [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
