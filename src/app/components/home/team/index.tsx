@@ -33,9 +33,9 @@ const Team = (props: { teamdataNumber: string }) => {
                   <h2 className="max-w-3xl">I paint. I perform.</h2>
                   <p className="max-w-2xl text-secondary/70 dark:text-white/70">
                     I’m also a classically trained concert pianist with a deep
-                    love for expressive, dynamic performance. Music has always
-                    been a parallel form of expression for me—one that informs
-                    my visual art and vice versa.
+                    love for performing on stage. Music has always been a
+                    parallel form of expression for me—one that informs my
+                    visual art and vice versa.
                   </p>
                 </div>
               </div>
