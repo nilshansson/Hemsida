@@ -113,16 +113,8 @@ const teamData = {
       position: "Creative Director",
       socialLinks: [
         {
-          icon: "/images/socialIcon/twitter.svg",
-          link: "https://twitter.com",
-        },
-        {
-          icon: "/images/socialIcon/Be.svg",
-          link: "https://www.behance.net/",
-        },
-        {
-          icon: "/images/socialIcon/linkedin.svg",
-          link: "https://linkedin.com",
+          icon: "/images/icon/arrow-icon.svg",
+          link: "https://www.youtube.com/watch?v=Hk0nzPMt2nI",
         },
       ],
     },
@@ -133,16 +125,8 @@ const teamData = {
       position: "Lead Designer",
       socialLinks: [
         {
-          icon: "/images/socialIcon/twitter.svg",
-          link: "https://twitter.com",
-        },
-        {
-          icon: "/images/socialIcon/Be.svg",
-          link: "https://www.behance.net/",
-        },
-        {
-          icon: "/images/socialIcon/linkedin.svg",
-          link: "https://linkedin.com",
+          icon: "/images/icon/arrow-icon.svg",
+          link: "https://www.youtube.com/watch?v=ZNpLDFOFmUw",
         },
       ],
     },
@@ -152,16 +136,8 @@ const teamData = {
       position: "UX/UI Developer",
       socialLinks: [
         {
-          icon: "/images/socialIcon/twitter.svg",
-          link: "https://twitter.com",
-        },
-        {
-          icon: "/images/socialIcon/Be.svg",
-          link: "https://www.behance.net/",
-        },
-        {
-          icon: "/images/socialIcon/linkedin.svg",
-          link: "https://linkedin.com",
+          icon: "/images/icon/arrow-icon.svg",
+          link: "https://www.youtube.com/watch?v=Ss9n3l94z4o",
         },
       ],
     },
