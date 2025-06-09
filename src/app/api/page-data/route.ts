@@ -207,29 +207,29 @@ const pricingData = {
 const faqData = {
   data: [
     {
-      faq_que: "What services does your agency offer?",
+      faq_que: "Why do you use acrylics?",
       faq_ans:
-        "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+        "I love how immediate they are. They dry quickly, which lets me work fast and intuitively — perfect for how I paint.",
     },
     {
-      faq_que: "How long does a typical project take?",
+      faq_que: "Do you ever sell prints?",
       faq_ans:
-        "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+        "Right now I focus on originals, but I’m working on making a small collection of prints available soon.",
     },
     {
-      faq_que: "Do you offer custom designs, or do you use templates?",
+      faq_que: "Can I see your paintings in person before buying?",
       faq_ans:
-        "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+        "Sometimes! If you're in Stockholm or nearby, feel free to get in touch — I might have something available for a private viewing.",
     },
     {
-      faq_que: "What’s the cost of a project?",
+      faq_que: "How long does it take to make a commissioned painting?",
       faq_ans:
-        "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+        "It depends on the size and complexity, but usually between 2–4 weeks. I’ll give you a timeline before we begin.",
     },
     {
-      faq_que: "Do you provide ongoing support after project completion?",
+      faq_que: "How do I know which painting is right for my space?",
       faq_ans:
-        "Yes, we provide post-launch support to ensure smooth implementation and offer ongoing maintenance packages for clients needing regular updates or technical assistance.",
+        "I’m happy to help! You can send me a photo of your wall or room, and I’ll give you a visual suggestion or mock-up to see how a painting might fit.",
     },
   ],
 };
