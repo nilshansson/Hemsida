@@ -40,7 +40,6 @@ const Herobanner = ({
             <h1 className={`${headingClass ? headingClass : "large-heading"}`}>
               {heading}
             </h1>
-            <div className="bg-primary rounded-full  pl-8 p-1.5"></div>
           </div>
         </div>
       </div>
