@@ -71,13 +71,6 @@ const servicesData = {
       descp:
         "If possible, send me a photo of the space where you plan to hang the painting. This helps me tailor the artwork to your environment. We’ll then agree on the size, timeline, and price before I begin.",
     },
-    {
-      id: 4,
-      image: "/images/home/services/services_4.png",
-      heading: "Motion & 3d modeling",
-      descp:
-        "When selecting a web design agency, it's essential to consider its reputation, experience, and the specific needs of your project.",
-    },
   ],
 };
 
