@@ -40,25 +40,7 @@ const Herobanner = ({
             <h1 className={`${headingClass ? headingClass : "large-heading"}`}>
               {heading}
             </h1>
-            <div className="bg-primary rounded-full  pl-8 p-1.5">
-              <div className="bg-white p-3 md:p-5 rounded-full">
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.33337 1.33331H14.6667M14.6667 1.33331V14.6666M14.6667 1.33331L1.33337 14.6666"
-                    stroke="#1F2A2E"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </div>
-            </div>
+            <div className="bg-primary rounded-full  pl-8 p-1.5"></div>
           </div>
         </div>
       </div>
