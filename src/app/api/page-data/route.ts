@@ -113,7 +113,7 @@ const teamData = {
       position: "Creative Director",
       socialLinks: [
         {
-          icon: "/images/icon/arrow-icon.svg",
+          icon: "/images/Icon/arrow-icon.svg",
           link: "https://www.youtube.com/watch?v=Hk0nzPMt2nI",
         },
       ],
@@ -125,7 +125,7 @@ const teamData = {
       position: "Lead Designer",
       socialLinks: [
         {
-          icon: "/images/icon/arrow-icon.svg",
+          icon: "/images/Icon/arrow-icon.svg",
           link: "https://www.youtube.com/watch?v=ZNpLDFOFmUw",
         },
       ],
@@ -136,7 +136,7 @@ const teamData = {
       position: "UX/UI Developer",
       socialLinks: [
         {
-          icon: "/images/icon/arrow-icon.svg",
+          icon: "/images/Icon/arrow-icon.svg",
           link: "https://www.youtube.com/watch?v=Ss9n3l94z4o",
         },
       ],

@@ -29,7 +29,7 @@ const Team = (props: { teamdataNumber: string }) => {
             <div className="flex flex-col xl:flex xl:flex-row items-start gap-8">
               <div className="flex items-center py-3 gap-4 md:gap-8 w-full max-w-xl"></div>
               <div className="flex flex-col gap-11">
-                <div className="flex flex-col gap-5 ">
+                <div className="flex flex-col gap-5">
                   <h2 className="max-w-3xl">I paint. I perform.</h2>
                   <p className="max-w-2xl text-secondary/70 dark:text-white/70">
                     I’m also a classically trained concert pianist with a deep
@@ -41,7 +41,14 @@ const Team = (props: { teamdataNumber: string }) => {
               </div>
             </div>
 
-            <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-7">
+            {/* ✅ Updated Grid Section */}
+            <div
+              className={`grid gap-7 ${
+                teamData?.data?.length === 3
+                  ? "grid-cols-3 justify-items-center"
+                  : "sm:grid-cols-2 xl:grid-cols-4"
+              }`}
+            >
               {teamData?.data?.map((data: any, index: any) => {
                 return (
                   <div key={index} className="group flex flex-col gap-6">
