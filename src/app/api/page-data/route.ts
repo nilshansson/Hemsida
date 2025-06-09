@@ -76,18 +76,16 @@ const servicesData = {
 
 const testimonialData = {
   data_1: {
-    preTitle: "Hear from them",
     title:
       "Our Year redesign was flawless. They understood our vision perfectly!",
     author: "Albert Flores",
     company: "MasterCard",
   },
   data_2: {
-    preTitle: "Hear from them",
     title:
-      "From concept to execution, they delivered outstanding results. Highly recommend their expertise!",
-    author: "Robert Fox",
-    company: "Mitsubishi",
+      "I love everything Nils creates, but for my home I had something very specific in mind. I sent him a myriad of inspiration I had collected from museums around Europe. Paintings, color palettes and even specific feelings I wanted the art to convey. A few weeks later, I received two stunning pieces that perfectly captured the vision I had, now resting peacefully and purposefully on my walls. I’m looking forward to get a bigger apartment so I can have more walls to adorn with Nils’ art! 🙂",
+    author: "Arian Tavassoli",
+    company: "Comissioned two large paintings",
   },
   data_3: {
     preTitle: "Hear from them",

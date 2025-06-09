@@ -82,7 +82,7 @@ function Testimonial() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-4">
                     <Image
-                      src={"/images/testimonial/testimonial_2.png"}
+                      src={"/images/testimonial/arian.jpg"}
                       alt="Image"
                       width={60}
                       height={60}
