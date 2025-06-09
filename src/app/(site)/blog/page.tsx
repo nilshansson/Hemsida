@@ -2,7 +2,7 @@ import BlogList from "@/app/components/blog/blog-list";
 import Herobanner from "@/app/components/shared/hero-banner";
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Blog | Studiova",
+  title: "Events | Nils Hansson Meng",
 };
 
 export default function Page() {
