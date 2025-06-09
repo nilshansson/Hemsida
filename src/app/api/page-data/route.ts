@@ -126,25 +126,7 @@ const teamData = {
         },
       ],
     },
-    {
-      image: "/images/home/team/team-img-2.png",
-      name: "Floyd Miles",
-      position: "Marketing Strategist",
-      socialLinks: [
-        {
-          icon: "/images/socialIcon/twitter.svg",
-          link: "https://twitter.com",
-        },
-        {
-          icon: "/images/socialIcon/Be.svg",
-          link: "https://www.behance.net/",
-        },
-        {
-          icon: "/images/socialIcon/linkedin.svg",
-          link: "https://linkedin.com",
-        },
-      ],
-    },
+
     {
       image: "/images/home/team/team-img-3.png",
       name: "Glenna Snyder",
