@@ -76,9 +76,6 @@ function Pricing() {
                               </h3>
                             )}
                             <h3>{value.planPrice}</h3>
-                            <span className="text-base text-secondary/70 dark:text-white/70">
-                              /month
-                            </span>
                           </div>
                         </div>
                         <p className="text-base text-secondary/70 dark:text-white/70">
