@@ -7,7 +7,7 @@ const AboutusDetail = () => {
           <div className="max-w-xl w-full">
             {/* <h2 className="text-56">Nils Hansson Meng</h2> */}
             <Image
-              src="images/about/about-us/image-section/nilsbild-lowquality.jpg"
+              src="images/about-us/image-section/nilsbild-lowquality.jpg"
               alt="picture of Nils Hansson Meng"
             />
           </div>
