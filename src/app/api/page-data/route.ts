@@ -268,7 +268,7 @@ const aboutusStats = [
   },
 ];
 const servicesSliderData = [
-  "Did you know? I started painting when my parents moved into a place with big, empty white walls. I thought I’d buy some art… but then I got curious, bought a huge canvas, and made one myself. After that first painting, I was completely hooked — and I haven’t stopped since.",
+  "Did you know: I only started painting when I was 21",
 ];
 
 export const GET = async () => {
