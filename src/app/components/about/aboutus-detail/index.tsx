@@ -13,23 +13,24 @@ const AboutusDetail = () => {
           </div>
           <div className="flex flex-col gap-12">
             <p className="text-secondary dark:text-white">
-              It’s a canvas for your creativity. It’s your opportunity to
-              transform bold ideas into dynamic, interactive experiences. Your
-              work can shape identities, tell compelling stories, or spark
-              meaningful change. As the digital landscape grows, so do the
-              possibilities. And whether you thrive working remotely or in a
-              buzzing agency space, the thrill of seeing your vision come to
-              life is unmatched.
+              I’m a self-taught painter working mainly with acrylics, and for
+              me, painting is a way to express something that I can’t always put
+              into words. I’m drawn to strong colors and shapes, and I often
+              build a kind of dream world in each piece — something that feels
+              clear in its theme, but still holds a bit of mystery. I’ve always
+              been interested in the unconscious, and that’s a big part of what
+              drives my creative process.
             </p>
             <p className="text-secondary dark:text-white">
-              At Studiova, we bring ideas to life through a range of services:
-              branding, web development, agency solutions, content creation,
-              SaaS, and motion & 3D modeling. As a web designer, you merge
-              artistry and technology to craft "digital experiences" that
-              inform, captivate, and inspire. Every day brings something new —
-              one moment you’re sketching innovative concepts, the next you’re
-              turning them into seamless, responsive designs. Web design keeps
-              you pushing boundaries and creating at every turn!
+              I tend to work on larger canvases, and I like when a painting
+              feels like a statement — something bold, something that takes up
+              space. The journey of creating is just as important as the final
+              result. I spend a lot of time searching for the right color
+              combinations, the right mood, the right rhythm in the composition.
+              Early in my painting journey, some private collectors discovered
+              my work and bought a few pieces, which gave me the confidence to
+              keep going. Since then, I’ve kept following that same instinct —
+              painting my way into new worlds, one color at a time.
             </p>
           </div>
         </div>
