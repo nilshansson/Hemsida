@@ -33,11 +33,12 @@ function Pricing() {
               <div className="flex flex-col xl:flex xl:flex-row items-start gap-8">
                 <div className="flex flex-col gap-11">
                   <div className="flex flex-col gap-5 ">
-                    <h2 className="max-w-3xl">Affordable pricing</h2>
+                    <h2 className="max-w-3xl">Affordable artwork</h2>
                     <p className="max-w-2xl text-secondary/70 dark:text-white/70">
-                      A glimpse into our creativity—exploring innovative
-                      designs, successful collaborations, and transformative
-                      digital experiences.
+                      I believe original art should be accessible. My work is
+                      priced to be affordable, without compromising on
+                      expression, emotion, or quality—bold pieces made to bring
+                      beauty and personality into your space.
                     </p>
                   </div>
                 </div>
