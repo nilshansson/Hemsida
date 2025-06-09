@@ -66,7 +66,7 @@ const servicesData = {
     },
     {
       id: 3,
-      image: "/images/home/services/services_3.png",
+      image: "/images/home/services/livingroom-hemsida.avif",
       heading: "3. Let's Make It Yours",
       descp:
         "If possible, send me a photo of the space where you plan to hang the painting. This helps me tailor the artwork to your environment. We’ll then agree on the size, timeline, and price before I begin.",
