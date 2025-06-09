@@ -59,7 +59,7 @@ const servicesData = {
     },
     {
       id: 2,
-      image: "/images/home/services/services_2.png",
+      image: "/images/home/services/picasso-kollage.jpg",
       heading: "2. Send Me Inspiration",
       descp:
         "If you already have something in mind, please send at least three reference images along with a short note about what speaks to you in each one—colors, mood, shapes, or memories. It helps me capture your vision more clearly.",
