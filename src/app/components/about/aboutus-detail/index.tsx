@@ -1,10 +1,15 @@
+import Image from "next/image";
 const AboutusDetail = () => {
   return (
     <section className="py-10 md:py-20 xl:py-40 dark:bg-secondary">
       <div className="container">
         <div className="flex flex-col xl:flex-row gap-8">
           <div className="max-w-xl w-full">
-            <h2 className="text-56">Nils Hansson Meng</h2>
+            {/* <h2 className="text-56">Nils Hansson Meng</h2> */}
+            <Image
+              src="images/about/about-us/image-section/nilsbild-lowquality.jpg"
+              alt="picture of Nils Hansson Meng"
+            />
           </div>
           <div className="flex flex-col gap-12">
             <p className="text-secondary dark:text-white">
