@@ -140,44 +140,46 @@ const teamData = {
 const pricingData = {
   data: [
     {
-      planName: "Launch",
-      planPrice: "$699",
+      planName: "Small but Bold",
+      planPrice: "1000-2500 kr",
       planDescp:
-        "Ideal for startups and small businesses taking their first steps online.",
+        "Perfect for small spaces or thoughtful gifts. Art that makes a statement, even at 20x20cm.",
       planIncludes: [
-        "Competitive research & insights",
-        "Wireframing and prototyping",
-        "Basic tracking setup (Google Analytics, etc.)",
-        "Standard contact form integration",
+        "Original acrylic painting on canvas",
+        "Size: approx. 20x20 cm to 40x40 cm",
+        "Signed and dated on the back",
+        "Comes with a surprise art magnet",
       ],
     },
     {
-      planName: "Scale",
+      planName: "Medium Dream",
       tag: "Most popular",
-      planPrice: "$1,699",
-      cancelPrice: "$2,199",
+      planPrice: "2500-4000 SEK",
       planDescp:
-        "Perfect for growing brands needing more customization and flexibility.",
+        "Balanced in size, bold in personality. Ideal for adding color and story to any room.",
       planIncludes: [
-        "Everything in the Launch Plan",
-        "Custom design for up to 10 pages",
-        "Seamless social media integration",
-        "SEO enhancements for key pages",
+        "Original acrylic painting, medium format",
+        "Size: approx. 50x50 cm to 80x80 cm",
+        "Signed front or back, your choice",
+        "Art magnet + exclusive promo code for your next piece",
       ],
     },
     {
-      planName: "Elevate",
-      planPrice: "$3,499",
+      planName: "Big Statement",
+      planPrice: "4000-6000 SEK",
       planDescp:
-        "Best suited for established businesses wanting a fully tailored experience.",
+        "For those who want the painting to be the room. A bold, large-scale dreamscape.",
       planIncludes: [
-        "Everything in the Scale Plan",
-        "E-commerce functionality (if needed)",
-        "Branded email template design",
-        "Priority support for six months after launch",
+        "Original large-format painting",
+        "Size: approx. 90x90 cm to 120x100 cm",
+        "Personally delivered to your home",
+        "Signed, titled, and dated",
+        "Comes with a surprise art magnet",
+        "Personal voice note about the painting’s story",
       ],
     },
   ],
+
   partnerLogo: [
     {
       light: "/images/home/pricing/partner-1.svg",
