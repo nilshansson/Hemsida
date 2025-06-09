@@ -112,7 +112,7 @@ function Pricing() {
                       </div>
                       <div>
                         <Link
-                          href="/Contact"
+                          href="/contact"
                           className="group relative flex justify-center items-center w-full bg-primary hover:bg-secondary rounded-full transition-all duration-300 ease-in-out"
                         >
                           <span className="py-4 px-2 text-lg font-bold text-secondary group-hover:text-white transition-all duration-300 ease-in-out">
