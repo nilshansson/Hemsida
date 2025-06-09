@@ -119,7 +119,7 @@ function ComiissionAWork() {
                     className="group flex gap-4 items-center w-fit bg-primary border border-primary hover:border hover:border-white/30 hover:bg-secondary rounded-full transition-all duration-200 ease-in-out"
                   >
                     <span className="pl-6 text-lg font-bold text-secondary group-hover:text-white group-hover:translate-x-12 transform transition-transform duration-200 ease-in-out">
-                      See our Work
+                      Check out my Work
                     </span>
                     <svg
                       className={` py-1 group-hover:-translate-x-37 group-hover:rotate-45 transition-all duration-200 ease-in-out `}
