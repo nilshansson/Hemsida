@@ -118,7 +118,7 @@ function Pricing() {
                           className="group relative flex justify-center items-center w-full bg-primary hover:bg-secondary rounded-full transition-all duration-300 ease-in-out"
                         >
                           <span className="py-4 px-2 text-lg font-bold text-secondary group-hover:text-white transition-all duration-300 ease-in-out">
-                            Subscribe now
+                            Contact me now
                           </span>
                           <div className="absolute top-0.5 right-0.5 transition-all duration-300 ease-in-out group-hover:left-0">
                             <svg
@@ -196,16 +196,13 @@ function Pricing() {
               </div>
             </div>
             <div className="flex flex-col gap-10">
-              <p className="text-secondary dark:text-white text-center">
-                More than 320 trusted partners & clients
-              </p>
-              <Slider duration={20} pauseOnHover={true} blurBorders={false}>
+              {/* <Slider duration={20} pauseOnHover={true} blurBorders={false}>
                 {(pricingData?.partnerLogo || []).map(
                   (items: any, index: any) => (
                     <Logoslider key={index} logo={items} />
                   )
                 )}
-              </Slider>
+              </Slider> */}
             </div>
           </div>
         </div>
