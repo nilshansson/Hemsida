@@ -77,23 +77,25 @@ const servicesData = {
 const testimonialData = {
   data_1: {
     title:
-      "Our Year redesign was flawless. They understood our vision perfectly!",
-    author: "Albert Flores",
-    company: "MasterCard",
+      "I had a very clear idea for my office space, and Nils brought it to life even better than I imagined. The painting lifts the whole atmosphere and has become a real talking point with my clients.",
+    author: "Anna Eriksson",
+    company: "Interior Designer",
   },
   data_2: {
     title:
       "I love everything Nils creates, but for my home I had something very specific in mind. I sent him a myriad of inspiration I had collected from museums around Europe. Paintings, color palettes and even specific feelings I wanted the art to convey. A few weeks later, I received two stunning pieces that perfectly captured the vision I had, now resting peacefully and purposefully on my walls. I’m looking forward to get a bigger apartment so I can have more walls to adorn with Nils’ art! 🙂",
     author: "Arian Tavassoli",
-    company: "Comissioned two large paintings",
+    company: "Commissioned two large paintings",
   },
   data_3: {
     preTitle: "Hear from them",
-    title: "Super smooth process with incredible results. highly recommend!",
-    author: "Jenny Wilson",
-    company: "Pizza Hut",
+    title:
+      "Commissioning a painting from Nils was such an easy and rewarding process. He really listened to my ideas and transformed them into a piece that feels truly personal.",
+    author: "Jonas Lindholm",
+    company: "Private Collector",
   },
 };
+
 
 const teamData = {
   number: "06",

@@ -53,7 +53,7 @@ function Testimonial() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src={"/images/testimonial/testimonial_1.png"}
+                    src={"/images/testimonial/anna.jpg"}
                     alt="Image"
                     width={60}
                     height={60}
@@ -108,7 +108,7 @@ function Testimonial() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src={"/images/testimonial/testimonial_3.png"}
+                    src={"/images/testimonial/jonas.jpg"}
                     alt="Image"
                     width={60}
                     height={60}
