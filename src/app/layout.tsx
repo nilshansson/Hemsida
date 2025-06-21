@@ -1,5 +1,5 @@
 "use client";
-import { Manrope, Quicksand } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 
 import { ThemeProvider } from "next-themes";
@@ -9,7 +9,7 @@ import Header from "./components/layout/header";
 import Footer from "./components/layout/footer";
 import ScrollToTop from "./components/scroll-to-top";
 
-const manrope = Quicksand({
+const manrope = Manrope({
   subsets: ["latin"],
 });
 
