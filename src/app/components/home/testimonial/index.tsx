@@ -44,12 +44,12 @@ function Testimonial() {
             <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-7">
               <div className="bg-primary p-4 lg:p-7 flex flex-col gap-32">
                 <div className="flex flex-col gap-6">
-                  <p className="text-base text-secondary/70">
+                  <p className="text-base text-secondary/40">
                     {testimonialData?.data_1?.preTitle}
                   </p>
-                  <h4 className="dark:text-secondary">
+                  <p className="dark:text-secondary">
                     {testimonialData?.data_1?.title}
-                  </h4>
+                  </p>
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
@@ -74,9 +74,7 @@ function Testimonial() {
                   <p className="text-base text-white/70">
                     {testimonialData?.data_2?.preTitle}
                   </p>
-                  <h4 className="text-white">
-                    {testimonialData?.data_2?.title}
-                  </h4>
+                  <p className="text-white">{testimonialData?.data_2?.title}</p>
                   <div className="flex items-center gap-2.5"></div>
                 </div>
                 <div className="flex items-center justify-between">
@@ -104,7 +102,7 @@ function Testimonial() {
                   <p className="text-base text-secondary/70 dark:text-white/70">
                     {testimonialData?.data_3?.preTitle}
                   </p>
-                  <h4>{testimonialData?.data_3?.title}</h4>
+                  <p>{testimonialData?.data_3?.title}</p>
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
