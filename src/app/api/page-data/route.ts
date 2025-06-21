@@ -96,7 +96,6 @@ const testimonialData = {
   },
 };
 
-
 const teamData = {
   number: "06",
   data: [
@@ -141,7 +140,7 @@ const pricingData = {
   data: [
     {
       planName: "Small but Bold",
-      planPrice: "1000-2500 kr",
+      planPrice: "990-2490 kr",
       planDescp:
         "Perfect for small spaces or thoughtful gifts. Art that makes a statement, even at 20x20cm.",
       planIncludes: [
@@ -154,7 +153,7 @@ const pricingData = {
     {
       planName: "Medium Dream",
       tag: "Most popular",
-      planPrice: "2500-4000 SEK",
+      planPrice: "2490-3990 SEK",
       planDescp:
         "Balanced in size, bold in personality. Ideal for adding color and story to any room.",
       planIncludes: [
@@ -166,7 +165,7 @@ const pricingData = {
     },
     {
       planName: "Big Statement",
-      planPrice: "4000-6000 SEK",
+      planPrice: "3990-5990 SEK",
       planDescp:
         "For those who want the painting to be the room. A bold, large-scale dreamscape.",
       planIncludes: [
@@ -174,7 +173,7 @@ const pricingData = {
         "Size: approx. 90x90 cm to 120x100 cm",
         "Personally delivered to your home",
         "Signed, titled, and dated",
-        "Comes with a surprise art magnet",
+        "Art magnet + exclusive promo code for your next piece",
         "Personal voice note about the painting’s story",
       ],
     },
