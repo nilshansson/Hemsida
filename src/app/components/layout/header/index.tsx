@@ -79,8 +79,8 @@ const Header = () => {
     >
       <div className="container">
         <nav
-          className={`relative flex item-center justify-between ${
-            sticky ? "py-3" : "py-5"
+          className={`relative flex items-center justify-between ${
+            sticky ? "py-2" : "py-3"
           }`}
         >
           <div className="flex items-center">
