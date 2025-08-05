@@ -13,7 +13,7 @@ export default function Page() {
       <Herobanner
         bannerimage="/images/projects/banner/projects-banner.png"
         heading="Artworks"
-        desc="?"
+        desc="Here you can see some of my works that have been either sold, comission or still available"
       />
       <ProjectList />
     </main>

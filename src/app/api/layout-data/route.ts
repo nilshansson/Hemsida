@@ -9,19 +9,19 @@ const MenuData = [
   },
   {
     id: 2,
-    title: "About",
+    title: "Bio",
     path: "/about",
     newTab: false,
   },
   {
     id: 3,
-    title: "Artworks",
+    title: "Media",
     path: "/projects",
     newTab: false,
   },
   {
     id: 4,
-    title: "Events",
+    title: "calendar",
     path: "/blog",
     newTab: false,
   },
@@ -45,9 +45,9 @@ const footerData = {
 
   links: [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
+    { name: "Bio", href: "/about" },
     { name: "Comission A Work", href: "/#comission-a-work" },
-    { name: "Artwork", href: "/projects" },
+    { name: "Media", href: "/projects" },
     { name: "Terms", href: "/terms-and-conditions" },
     { name: "Privacy Policy", href: "/privacy-policy" },
     { name: "Error 404", href: "/not-found" },
