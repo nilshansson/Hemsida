@@ -23,20 +23,17 @@ const ProjectList = () => {
       <div className="flex flex-col gap-24">
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-            {projects.map((project, index) => {
-              return (
-                <div key={index} className="flex flex-col gap-5">
-                  <div className="relative group">
+            {projects.map((project, index) => (
+              <div key={index} className="flex flex-col gap-5">
+                <div className="relative group">
+                  <Link href={`/projects/${project.slug}`}>
                     <img
                       src={project.coverImage}
                       alt={project.title}
                       className="w-full"
                     />
-                    <Link
-                      href={`/projects/${project.slug}`}
-                      className="absolute top-0 left-0 backdrop-blur-xs bg-black/70 w-full h-full hidden group-hover:flex"
-                    >
-                      <span className="flex justify-center items-center p-5 w-full">
+                    <div className="absolute top-0 left-0 w-full h-full hidden md:flex group-hover:flex justify-center items-center bg-black/70">
+                      <span className="p-5">
                         <svg
                           width="65"
                           height="64"
@@ -60,14 +57,14 @@ const ProjectList = () => {
                           />
                         </svg>
                       </span>
-                    </Link>
-                  </div>
-                  <div className="flex flex-col gap-3">
-                    <h3>{project.title}</h3>
-                  </div>
+                    </div>
+                  </Link>
                 </div>
-              );
-            })}
+                <div className="flex flex-col gap-3">
+                  <h3>{project.title}</h3>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

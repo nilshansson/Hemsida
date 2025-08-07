@@ -15,7 +15,7 @@ const MenuData = [
   },
   {
     id: 3,
-    title: "Media",
+    title: "Artworks",
     path: "/projects",
     newTab: false,
   },
@@ -47,7 +47,7 @@ const footerData = {
     { name: "Home", href: "/" },
     { name: "Bio", href: "/about" },
     { name: "Comission A Work", href: "/#comission-a-work" },
-    { name: "Media", href: "/projects" },
+    { name: "Artworks", href: "/projects" },
     { name: "Terms", href: "/terms-and-conditions" },
     { name: "Privacy Policy", href: "/privacy-policy" },
     { name: "Error 404", href: "/not-found" },
