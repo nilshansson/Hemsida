@@ -6,7 +6,7 @@ const Logo = (props: { sticky: boolean }) => {
 
   return (
     <Link href="/" className="flex items-center">
-      {/* Signature logo – shown on larger screens */}
+      {/* Signature logo – shown on medium and up */}
       <Image
         src={
           sticky
@@ -14,20 +14,20 @@ const Logo = (props: { sticky: boolean }) => {
             : "/images/logo/signatur-black.png"
         }
         alt="logo"
-        width={190}
+        width={140}
         height={34}
         quality={100}
         priority={true}
-        className="hidden xsm:block w-[100px] md:w-[140px] lg:w-[190px] h-auto"
+        className="hidden xsm:block w-[100px] md:w-[140px] h-auto"
       />
 
-      {/* Favicon logo – shown on extra small screens */}
+      {/* Favicon logo – shown on small screens */}
       <Image
         src={
           sticky ? "/images/logo/favicondark.svg" : "/images/logo/favicon.svg"
         }
         alt="logo"
-        width={100}
+        width={40}
         height={40}
         className="block xsm:hidden w-[40px] h-auto"
       />
