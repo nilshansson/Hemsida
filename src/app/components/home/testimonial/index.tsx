@@ -53,7 +53,7 @@ function Testimonial() {
                 </div>
                 <div className="flex items-center gap-4">
                   <Image
-                    src={"/images/testimonial/anna.jpg"}
+                    src={"/images/testimonial/Sara-hakaste.jpg"}
                     alt="Image"
                     width={60}
                     height={60}

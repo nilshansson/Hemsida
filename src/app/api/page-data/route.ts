@@ -77,9 +77,9 @@ const servicesData = {
 const testimonialData = {
   data_1: {
     title:
-      "I had a very clear idea for my office space, and Nils brought it to life even better than I imagined. The painting lifts the whole atmosphere and has become a real talking point with my clients.",
-    author: "Anna Eriksson",
-    company: "Interior Designer",
+      "I had admired Nils’s paintings and creativity on social media for a long time. The way he captures natural landscapes as well as abstract feelings and mindsets is fascinating! After getting a new appartment I wanted to get a part of this in my new home. We talked about style and colours together and some time later I recieved my very own beautiful painting that fitted my new living room perfectly!",
+    author: "Sara Hakaste",
+    company: "Comissioned a painting for her livingroom",
   },
   data_2: {
     title:
