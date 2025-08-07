@@ -25,14 +25,17 @@ const ProjectList = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {projects.map((project, index) => (
               <div key={index} className="flex flex-col gap-5">
-                <div className="relative group">
-                  <Link href={`/projects/${project.slug}`}>
+                <div className="relative">
+                  <Link
+                    href={`/projects/${project.slug}`}
+                    className="group block w-full relative"
+                  >
                     <img
                       src={project.coverImage}
                       alt={project.title}
                       className="w-full"
                     />
-                    <div className="absolute top-0 left-0 w-full h-full hidden md:flex group-hover:flex justify-center items-center bg-black/70">
+                    <div className="absolute top-0 left-0 w-full h-full hidden md:flex group-hover:flex justify-center items-center bg-black/70 transition-all duration-300">
                       <span className="p-5">
                         <svg
                           width="65"
