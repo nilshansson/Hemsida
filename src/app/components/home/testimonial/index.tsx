@@ -63,9 +63,11 @@ function Testimonial() {
                     <p className="dark:text-secondary">
                       {testimonialData?.data_1?.author}
                     </p>
-                    {/* <p className="text-secondary/70 text-base font-normal">
+                    /*{" "}
+                    <p className="text-secondary/70 text-base font-normal">
                       {testimonialData?.data_1?.company}
-                    </p> */}
+                    </p>{" "}
+                    */
                   </div>
                 </div>
               </div>
